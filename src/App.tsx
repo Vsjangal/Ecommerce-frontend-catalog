@@ -7,6 +7,7 @@ import SearchBar from './components/SearchBar';
 import SortControls from './components/SortControls';
 import Pagination from './components/Pagination';
 import ThemeToggle from './components/ThemeToggle';
+import AuthButton from './components/AuthButton';
 import { Loader2, PackageSearch } from 'lucide-react';
 import { useProductFilters } from './hooks/useProductFilters';
 
@@ -56,7 +57,10 @@ function App() {
             <SearchBar />
             <ThemeToggle />
           </div>
-          <SortControls />
+          <div className="flex items-center gap-4">
+            <AuthButton />
+            <SortControls />
+          </div>
         </div>
 
         {filteredProducts.length === 0 ? (
