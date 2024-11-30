@@ -2,6 +2,8 @@
 
 A modern, responsive e-commerce product catalog built with React, Redux Toolkit, and TypeScript. Features include live search, sorting, pagination, and dark mode support.
 
+Hosted url: https://ecommerce-frontend-catalog.vercel.app/
+
 ## 🌟 Features
 
 - **Responsive Design**
@@ -42,12 +44,12 @@ A modern, responsive e-commerce product catalog built with React, Redux Toolkit,
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+[git clone <repository-url>](https://github.com/Vsjangal/Ecommerce-frontend-catalog.git)
 ```
 
 2. Navigate to the project directory:
 ```bash
-cd e-commerce-catalog
+cd Ecommerce-frontend-catalog
 ```
 
 3. Install dependencies:
