@@ -1,9 +1,11 @@
 # E-commerce Product Catalog
 
-A modern, responsive e-commerce product catalog built with React, Redux Toolkit, and TypeScript. Features include live search, sorting, pagination, and dark mode support.
+A modern, responsive e-commerce product catalog built with React, Redux Toolkit, and TypeScript. Features include live search, sorting, pagination, dark mode support and Authentication.
 
 Hosted url: https://ecommerce-frontend-catalog.vercel.app/
 
+**I haven't put the firebase config's in .env file so that you don't need to setup the firebase project yourself to test the authentication.
+**
 ## 🌟 Features
 
 - **Responsive Design**
